@@ -1608,6 +1608,11 @@ if (!$error && ($massaction == 'unassigncommercial' || ($action == 'unassigncomm
 		$db->rollback();
 	}
 }
+// Increasing the leave balance of users (mass action increaseholiday below) needs the permission to setup leaves, not the permission to approve them
+if (!$error && ($massaction == 'increaseholiday' || $action == 'increaseholiday') && !$user->hasRight('holiday', 'define_holiday')) {
+	$error++;
+	setEventMessages($langs->trans("NotEnoughPermissions"), null, 'errors');
+}
 // Approve for leave only
 if (!$error && ($massaction == 'approveleave' || ($action == 'approveleave' && $confirm == 'yes')) && $permissiontoapprove) {
 	$db->begin();
