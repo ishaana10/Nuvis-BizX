@@ -50,32 +50,31 @@ $theme_bgcoloronglet = array(hexdec('DE'), hexdec('E7'), hexdec('EC'));
 
 // Colors
 $colorbackbody = '255,255,255';
-$colorbackhmenu1 = '38,60,92'; // topmenu
-//$colorbackvmenu1 = '250,250,250'; // vmenu
-$colorbackvmenu1 = '248,248,248'; // vmenu
-$colortopbordertitle1 = '215,215,215'; // top border of title
-$colorbacktitle1 = '241,241,243'; // title of tables,list
+$colorbackhmenu1 = '15,23,42'; // modern deep slate topmenu
+$colorbackvmenu1 = '248,250,252'; // modern soft slate vmenu
+$colortopbordertitle1 = '226,232,240'; // top border of title
+$colorbacktitle1 = '241,245,249'; // title of tables,list
 $colorbacktabcard1 = '255,255,255'; // card
-$colorbacktabactive = '234,234,234';
+$colorbacktabactive = '241,245,249';
 $colorbacklineimpair1 = '255,255,255'; // line impair
 $colorbacklineimpair2 = '255,255,255'; // line impair
-$colorbacklinepair1 = '252,252,252'; // line pair
-$colorbacklinepair2 = '252,252,252'; // line pair
-$colorbacklinepairhover = '240,242,249'; // line hover
-$colorbacklinepairchecked = '240,242,249'; // line checked
-$colorbacklinebreak = '248,247,244'; // line break
-$colortexttitlenotab = '0,135,160'; // 150,90,121 140,80,10 or 10,140,80  #875a7b  green=0,123,140, violet: 0,50,120
-$colortexttitlenotab2 = '100,0,100'; // 150,90,121 140,80,10 or 10,140,80  #875a7b  green=0,123,140, violet: 0,50,120
-$colortexttitle = '40, 40, 60';
-$colortexttitlelink = '10, 20, 100';
-$colortext = '0,0,0';
-$colortextlink = '10, 20, 100';
+$colorbacklinepair1 = '248,250,252'; // line pair
+$colorbacklinepair2 = '248,250,252'; // line pair
+$colorbacklinepairhover = '238,242,255'; // line hover - modern indigo soft tint
+$colorbacklinepairchecked = '238,242,255'; // line checked
+$colorbacklinebreak = '241,245,249'; // line break
+$colortexttitlenotab = '30,58,138'; // sleek modern dark blue
+$colortexttitlenotab2 = '79,70,229'; // sleek modern indigo
+$colortexttitle = '30,41,59';
+$colortexttitlelink = '37,99,235';
+$colortext = '15,23,42';
+$colortextlink = '37,99,235';
 $fontsize = '0.94em';
 $fontsizesmaller = '0.75em';
-$topMenuFontSize = '1.1em';
-$toolTipBgColor = 'rgba(255, 255, 255, 0.96)';
-$toolTipFontColor = '#333';
-$butactionbg = '116, 96, 170';
+$topMenuFontSize = '1.05em';
+$toolTipBgColor = 'rgba(15, 23, 42, 0.92)';
+$toolTipFontColor = '#fff';
+$butactionbg = '79, 70, 229'; // modern indigo primary button
 $textbutaction = '255, 255, 255';
 
 // text color
